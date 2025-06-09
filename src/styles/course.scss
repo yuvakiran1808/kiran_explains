@@ -1,0 +1,50 @@
+.course-modern-card {
+  max-width: 400px;
+  border-radius: 10px !important;
+  overflow: hidden;
+  background-color: #fff !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.course-image {
+  height: 220px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.course-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #1b1b1b;
+}
+
+.course-title {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.course-description {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.course-tags {
+  flex-wrap: wrap;
+}
+
+.course-view-link {
+  margin-top: auto;
+   color: #1b1b1b;
+}
+
+@media (max-width: 900px) {
+  .course-modern-card {
+    width: 350px;
+  }
+}

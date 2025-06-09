@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.footer-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  background-color: #ffffff;
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    text-align: center;
+  }
+  .footer-sub-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      font-family: "Montserrat", sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+      font-style: normal;
+      color: black;
+    }
+  }
+  .footer-icons-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    .social-icons {
+      cursor: pointer;
+      margin-right: 30px;
+    }
+  }
+  .footer-mark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      color: black;
+    }
+  }
+}
+
+
+// mobile styles
+
+@media (max-width: 600px) {
+.footer-mark {
+    text-align: center;
+    p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 10px;
+      font-weight: 500;
+      color: rebeccapurple;
+    }
+  }
+}
