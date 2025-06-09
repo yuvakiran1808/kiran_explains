@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import { Paper, Box, Typography, Chip } from "@mui/material";
+import { Paper, Box, Typography } from "@mui/material";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { blogsData } from "../assets/data/blogsData";
 
