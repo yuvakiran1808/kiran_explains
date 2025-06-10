@@ -1,4 +1,4 @@
-import Grid from "@mui/material/Grid";
+import Grid from "@mui/material/Grid2";
 import "../styles/navbar.scss";
 import githublogo from "../assets/github-logo.png";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -24,11 +24,11 @@ const Navbar = () => {
 
   return (
     <Grid container spacing={2} className="nav-container">
-      <Grid item md={4} className="center-content">
+      <Grid size={{ md: 4 }} className="center-content">
         <h2>Kiran_Explains</h2>
       </Grid>
 
-      <Grid item xs={12} md={4}>
+      <Grid size={{ xs: 12, md: 4 }}>
         <div className="nav-items">
           {navItems.map((item, index) => (
             <h3
@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
       </Grid>
 
-      <Grid item md={4} className="center-content">
+      <Grid size={{ md: 4 }} className="center-content">
         <div className="btn-con">
           <div className="nav-btn">
             <a
